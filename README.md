@@ -46,7 +46,7 @@ Note: Do all above steps in Master and Slave Nodes
 ```
 sudo amazon-linux-extras install ansible2 -y
 ```
-To Varify Ansible Version, Run the following command
+* To Varify Ansible Version, Run the following command
 ``` 
 ansible --version 
 ```
@@ -55,7 +55,7 @@ ansible --version
 ```
 sudo yum install python python-pip python-level openssl -y
 ```
-To varify Python 
+* To varify Python 
 ```
 python --version
 ```
@@ -94,7 +94,7 @@ Note : We can configure no. of slave nodes using above command.
 ```
 If you want to logout from slave node, run `` exit `` command 
 
-4. Configure Host Server Details in Host Inventory file (*sudo user*)  
+4. Configure Host Server Details in Host Inventory file  
 ```
     sudo vi /etc/ansible/hosts
 ```
