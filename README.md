@@ -94,9 +94,9 @@ Note : We can configure no. of slave nodes using above command.
 ```
 If you want to logout from slave node, run `` exit `` command 
 
-4. Configure Host Server Details in Host Inventory file  
+4. Configure Host Server Details in Host Inventory file (*sudo user*)  
 ```
-    vi /etc/ansible/hosts
+    sudo vi /etc/ansible/hosts
 ```
 In the inventory file, The Host details as Grouped and Ungrouped Hosts
 
@@ -110,9 +110,9 @@ In the inventory file, The Host details as Grouped and Ungrouped Hosts
 
 These Hosts are not execute directly. if u want to execute these groups by giving permissions.
 
-5. Give Permission to Inventory file and sudo_user
+5. Give Permission to Inventory file and sudo_user (*sudo user*)
 ```
-    vi /etc/ansible/ansible.cfg
+    sudo vi /etc/ansible/ansible.cfg
 ```
 Giving permissions to Inventory and Root by removing '#'
 
