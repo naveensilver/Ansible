@@ -204,7 +204,7 @@ Ansible requires following three Components to automate the Network Infrastructu
 
 ## Inventory File
 
-Ansible Inventory hosts file is used to list and group your host server.
+Ansible Inventory hosts file is used to store the IP_Address of Target servers. we can list and group your host server.
 
 The Default location is "/etc/ansible/hosts"
 
