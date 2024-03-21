@@ -174,6 +174,8 @@
 ```
 ### 6. Write a playbook to install httpd webserver using "set_fact" and "include" modules.
 
+set_fact and include is used to establish connection between two files
+
 $ vi one.yml
 ```
 ---
@@ -192,6 +194,7 @@ $ vi two.yml =>
 
   tasks:
     - include: one.yml   #set_fact playbook-name
+
     - name: restart apache httpd webserver in another playbook
       service: name='{{abc}}' state=restarted
 ```
