@@ -130,15 +130,16 @@ Ansible :
 1. Agentless: Ansible doesn’t require any extra software on your server nodes. It helps to keep the installation clean.
 
 2. Open-source: Ansible one of powerful DevOps tool which is open-source.
-Simple: Ansible uses the simple syntax written in YML called playbooks. YAML is simple and human readable and doesn’t require any coding skills.
 
-3. Ease of use: One can configure and manages the complex infrastructure solutions very easily. 
+3. Simple: Ansible uses the simple syntax written in YML called playbooks. YAML is simple and human readable and doesn’t require any coding skills.
 
-4. Powerful & Flexible: Ansible has powerful features that can enable even the most complex IT workflows. 
+4. Ease of use: One can configure and manages the complex infrastructure solutions very easily. 
 
-5. Efficient: No extra software on your server means more resources for your applications.
+5. Powerful & Flexible: Ansible has powerful features that can enable even the most complex IT workflows. 
 
-6. Secure: Ansible uses SSH connection which is secure and encrypted.
+6. Efficient: No extra software on your server means more resources for your applications.
+
+7. Secure: Ansible uses SSH connection which is secure and encrypted.
 
 ### Push vs Pull Based Architecture
 
