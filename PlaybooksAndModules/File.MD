@@ -11,7 +11,7 @@
     - name: Create a single file with specific permissions, owner, and group
       file:
         path: /root/file.txt 
-        state: touch
+        state: touch             # touch is used to create a file and directory used to create folder
         mode: '0644'
         owner: ansible   #user and group should present in slave server 
         group: root
