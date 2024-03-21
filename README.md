@@ -28,7 +28,15 @@ The roles and responsibilities of sys administrator is to manage configuration m
 
 If we have 100's of machines then Manual Configration Management will be difficult.
 
-* To avoid this Manual Configuration Management, Automation Configuration Management Tools came into Market, those tools are 
+### Problem with this approach 
+
+* Time consuming
+
+* chance of getting error
+
+* Repeatitive task
+
+* To avoid this Manual Approach, Automation Configuration Management Tools came into Market, those tools are 
 
     - Ansible (Trending Tool)
     - Chef 
