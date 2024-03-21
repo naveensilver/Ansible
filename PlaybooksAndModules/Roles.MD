@@ -41,6 +41,7 @@ Ansible-Galaxy Basic Commands:
 ```
 ansible-galaxy init <myrole>
 ```
+Role is Stored in `/root/.ansible/roles/<myrole>`
 
 * Install : To install a role from Ansible-Galaxy
 ```
