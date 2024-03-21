@@ -135,7 +135,7 @@ Ansible :
 
 ## ANSIBLE USES :
 
-1. Agentless: Ansible doesn’t require any extra software on your server nodes. It helps to keep the installation clean.
+1. Agentless Architecture: Ansible doesn’t require any extra software on your remote nodes. Which makes it easy set up and use and It helps to keep the installation clean.
 
 2. Open-source: Ansible one of powerful DevOps tool which is open-source.
 
@@ -148,6 +148,14 @@ Ansible :
 6. Efficient: No extra software on your server means more resources for your applications.
 
 7. Secure: Ansible uses SSH connection which is secure and encrypted.
+
+8. Configuration Management: used to automate configuration managemet tasks such as provisionig, application deployment and infastructure management.
+
+9. Scalability: Ansible can manage a large number of systems simultaneously, making it ideal for large-scale deployments.
+
+10. Open-source: Free to use and has large community contributors who regularly contribute to its development.
+
+11. Integrate with other tools: Ansible can be integrated with other tools such as Docker, Kubernetes and AWS, which makes it varsatile and easy to use in a variety of environments.
 
 ### Push vs Pull Based Architecture
 
