@@ -459,6 +459,12 @@ we can use VS code IDE to write and validate YML files.
 
 * Plays are ordered sets of tasks to execute against host servers from inventory file.
 
+* Playbook code consists of vars, tasks, handlers, file, template and roles.
+
+* Each playbook is composed of one or more modules in a list.
+
+* Module is a collection of configuration files
+
 * Play defines a set of tasks to be run on hosts.
 
 * Task is an action to be performed on host.
