@@ -64,6 +64,8 @@ Sample :
       
 
 ### 2. Write a playbook to clone the Private repo from Github Using Git Module 
+
+* Create a Github Token for Private Repository and Paste it inside Playbook
 ```
 ---
 - hosts: all 
@@ -82,3 +84,4 @@ Sample :
         version: master
 
 ```
+
