@@ -295,8 +295,10 @@ Add the following configuration in 100th line
 sudo vi /etc/ssh/sshd_config
 ```
 Change the following configurations in below 60 line
+
     >> Comment  ``` #PasswordAuthentication no ```
-	>> Un-Comment  ``` PasswordAuthentication yes ```
+    
+    >> Un-Comment  ``` PasswordAuthentication yes ```
 
 * Now, Restart SSH Service
 ```
