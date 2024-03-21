@@ -1,6 +1,14 @@
 ## Ansible-Vault :
 
-Ansible Vault is a feature that allows you to encrypt sensitive data within your playbooks or inventory files. This data can include username, passwords, API keys, or any other sensitive information that you don't want to store in plain text.
+Ansible Vault is a feature that allows you to encrypt sensitive data within your playbooks or inventory files. 
+
+This data can include :
+  - GitHub Tokens 
+  - username (jenkins users)
+  - passwords 
+  - API keys
+
+(OR) any other sensitive information that you don't want to store in plain text.
 
 Why We use Vault : 
 
