@@ -113,7 +113,7 @@ Ansible :
 
 •	Ansible is push based architecture & doesn’t need agents running on the client nodes.
 
-•	Ansible works over SSH. So, nothing needs to install on client machines and it need only a test editor and command line tools are usually enough to get your work done and other tools like chef/puppet need to install agent on the client machines. When we need to perform a task.
+•	Ansible works over SSH. So, nothing needs to install on client machines and it need only a text editor and command line tools are usually enough to get your work done and other tools like chef/puppet need to install agent on the client machines. When we need to perform a task.
 
 •	Ansible is light weight, easy to use and speed deployment compared to other tools.
 
