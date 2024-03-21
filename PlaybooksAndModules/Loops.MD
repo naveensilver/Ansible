@@ -18,7 +18,21 @@ Loops are used to perform multiple users, groups and files.. etc
          - git       
          - java
          - tree
+```
+```
+---
+- hosts: all
+  user: ansible
+  become: yes
+  connection: ssh
 
+  tasks:
+    - name: create multiple users using loops
+      user: name='{{item}}' state=present
+      with_items:    #pre define module 
+         - jaanu       
+         - smiley
+         - cutie
 ```
 
 Note : In the above playbook, the packages will install one by one and 'with_items' is pre-defined module.
