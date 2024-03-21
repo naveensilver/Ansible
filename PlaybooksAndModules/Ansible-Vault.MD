@@ -4,8 +4,9 @@ Ansible Vault is a feature that allows you to encrypt sensitive data within your
 
 This data can include :
   - GitHub Tokens 
-  - username (jenkins users)
-  - passwords 
+  - User related info  (jenkins usernames and pwds)
+  - Passwords 
+  - Terraform codes
   - API keys
 
 (OR) any other sensitive information that you don't want to store in plain text.
