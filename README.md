@@ -87,7 +87,7 @@ Ansible :
 
 •	Now, Ansible is considered one of the leading automation tool in IT industry.
 
-•	Ansible tool is used weather the servers are in On-prem or in the cloud.
+•	Ansible tool is used whether the servers are in On-prem or in the cloud.
 
 •	Ansible turns your code into infrastructure.
 
