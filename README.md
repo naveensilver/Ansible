@@ -95,13 +95,13 @@ Ansible :
 
 * Ansible manages machines in an Agent-less manner SSH.
 
-* Ansible Written in Python and Hence provides a lot of python's functionality.
+* Ansible Written in Python and Hence provides a lot of python's functionality. 
 
 * YAML based playbooks. (YML is Human and Machine readable)
 
 * User SSH for secure connections.
 
-* Follows Push based Architecture for seding configurations.
+* Follows Push based Architecture for sending configurations.
 
 ## WHY ANSIBLE :
 
