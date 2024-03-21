@@ -18,7 +18,7 @@ The user module in Ansible is used to manage user accounts on remote hosts
     - name: delete user 
       user: name="silver" state=absent remove=yes 
  
-      #remoe=yes is used to delete the user folder in "/home/"
+      #remote=yes is used to delete the user folder in "/home/"
 
 ```
 Note : We can varify user in remote user `cat /etc/passwd`
