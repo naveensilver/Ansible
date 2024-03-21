@@ -10,11 +10,15 @@ Sample :
 - name: Manage Git repository
   hosts: all
   become: yes
+
   tasks:
+    - name: install git in remote servers
+      yum: name=git state=present
+
     - name: Clone repository
       git:
         repo: https://github.com/example/repo.git
-        dest: /opt/repo
+        dest: /opt/repo                           # it will create `repo` folder
         version: master
 
     - name: Checkout branch
