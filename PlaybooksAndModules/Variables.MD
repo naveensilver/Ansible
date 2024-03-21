@@ -36,7 +36,7 @@ Here, we are declaring value to the variable in run time
 ansible-playbook <filename> --extra-vars package_name=httpd
 ```
 
-    2) Playbook Variable :
+2) Playbook Variable :
 
 we can declare the variable value within the playbook itself.
 
@@ -60,14 +60,17 @@ we can declare the variable value within the playbook itself.
         state: started
 ```
 
-    3) We can declare Group Variable
+3) We can declare Group Variable
+```
 		    /etc/ansible/group_vars
 				  >> vi <groupname>.yml  >> package_name: <httpd/nginx>
-
-    4) We can declare Host Variable  
+```
+4) We can declare Host Variable  
+```
 		    /etc/ansible/hosts_vars
 			    >> vi <172.168.10.3>.yml  >> package_name: <httpd/nginx>
-
+```
+-------------------------------
 3. Group Variable : 
 
 Group variables allow you to define variables that apply to multiple hosts or to all hosts within a group in your inventory. 
