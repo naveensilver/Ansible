@@ -377,7 +377,7 @@ In the inventory file, The Host details as Grouped and Ungrouped Hosts
 
 These Hosts are not execute directly. if u want to execute these groups by giving permissions.
 
-5. Give Permission to Inventory file and sudo_user
+5. Give Permission to Inventory file and sudo_user [FROM ROOT USER]
 ```
     vi /etc/ansible/ansible.cfg
 ```
