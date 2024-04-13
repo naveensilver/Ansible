@@ -1,10 +1,12 @@
 ## Ansible Modules Modules :
 
+Module is a small program that performs actions on a local machine, application programming interface (API), or remote host
+
 Ansible has a large number of built-in modules that can be used in playbooks and ad-hoc commands.
 
-* Module is a reusable, standalone script.
+* Module is a reusable, standalone script that ansible runs on your behalf, either locally or remotely.
 
-* Modules are designed to be simple, flexible, and easy to use
+* Modules are designed to be simple, flexible, and easy to use.
 
 These modules cover a wide range of tasks, including system administration, application deployment, network automation, and more. 
 
